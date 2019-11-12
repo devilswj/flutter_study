@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'demo3/firstPage.dart';
+import 'demo9/expansion_panel_list.dart';
 
 void main()=>runApp(MyApp());
 
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget{
       theme: ThemeData(
         primarySwatch: Colors.lightBlue
       ),
-      home: FirstPage()
+      home: ExpansionPanelListDemo()
     );
   }
 }
